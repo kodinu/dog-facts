@@ -1,3 +1,109 @@
-html {
-    background-color: aquamarine;
+* {
+    box-sizing: border-box;
+  }
+  body {
+    background-color: rgb(248, 236, 175);
+  }
+  
+  .viewport {
+    background: url(file:///C:/Users/JI/Desktop/darbai/Dogs/photo/1.jpg);
+    height: 100vh;
+    width: auto;
+    background-size: cover;
+    background-position: center center;
+  }
+  
+  nav {
+    background: rgba(56, 56, 56, 0.3);
+    height: 50px;
+    font-family: "Open Sans";
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+  .nav {
+    color: cornsilk;
+    margin-right: 40px;
+    font-family: 'Quicksand', sans-serif;
+  }
+
+  .nav:hover {
+    text-decoration: none;
+    color: rgb(173, 111, 119);
+  }
+
+  nav span {
+    margin: 0 30px 0 0;
+  }
+
+  .btn {
+      margin: 100px;
+      background-color: rgb(173, 111, 119);
+      font-family: 'Quicksand', sans-serif;
+  }
+  
+  .btn:hover {
+    background-color: rgb(150, 73, 83);
+  }
+
+  h1 {
+    text-align: center;
+    margin: 50px;
+    font-family: 'Quicksand', sans-serif;
+  }
+
+  .alert {
+    background-color: rgb(247, 237, 187);
+    text-align: center;
+    border: 1px solid rgb(173, 111, 119);
+    font-family: 'Quicksand', sans-serif;
+  }
+
+  .cont {
+    background: url(file:///C:/Users/JI/Desktop/darbai/Dogs/photo/2.jpg);
+    height: 100vh;
+    width: auto;
+    background-size: cover;
+    background-position: center center;
+  }
+
+input[type=text], select, textarea {
+  width: 100%; 
+  padding: 10px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 10px; 
+  resize: vertical;
+  font-family: 'Quicksand', sans-serif;
+}
+
+input[type=submit] {
+  background-color: rgb(173, 111, 119);
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 41%;
+  font-family: 'Quicksand', sans-serif;
+}
+
+input[type=submit]:hover {
+  background-color: rgb(150, 73, 83);
+}
+
+.container {
+  border-radius: 5px;
+  background-color: rgb(211, 244, 247);
+  opacity: 80%;
+  padding: 20px;
+  width: 40%;
+  height: 54%;
+}
+
+.message {
+  height: 100px;
 }
