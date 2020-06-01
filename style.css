@@ -6,7 +6,7 @@
   }
   
   .viewport {
-    background: url(file:///C:/Users/JI/Desktop/darbai/Dogs/photo/1.jpg);
+    background: url(![](photo/1.jpg));
     height: 100vh;
     width: auto;
     background-size: cover;
@@ -61,7 +61,7 @@
   }
 
   .cont {
-    background: url(file:///C:/Users/JI/Desktop/darbai/Dogs/photo/2.jpg);
+    background: url(![](photo/2.jpg));
     height: 100vh;
     width: auto;
     background-size: cover;
